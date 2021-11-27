@@ -5,14 +5,14 @@
 Welcome to Final Projects. This repository will serve as the starter for your final full-stack project.
 Before starting, make sure:
 
-- [ ] You have chosen your teammates for the project
-- [ ] You have created an organisation and all your teammates are members
+- [✅] You have chosen your teammates for the project
+- [✅] You have created an organisation and all your teammates are members
 
 Make sure that you have already created your own **organisation** with your teammates
 
 ## Get Started
 
-- [ ] Fork the repository under your organisation
+- [✅] Fork the repository under your organisation
 - [ ] Each member should clone the forked repository on his local machine
 - [ ] Choose one of the projects that has not been reserved
 
@@ -20,9 +20,9 @@ Make sure that you have already created your own **organisation** with your team
 
 Edit this file by filling your team composition here:
 
-- [ ] _Student full name_ | _Github username_ | **Scrum Master**
-- [ ] _Student full name_ | _Gihub username_
-- [ ] _Student full name_ | _Gihub username_
+- [✅] Yahia Boussaid | yahbouss | **Scrum Master**
+- [✅] Khadija Djarraya | khadija-djarraya
+- [✅] Chadi Haamrouni | Chadi Hamrouni
 
 ## Technologies
 
