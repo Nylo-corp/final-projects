@@ -9,7 +9,7 @@ const dummy_data = require("../dummy_data");
 
 morganBody(app)
 
-const port = process.env.PORT || 3001; //since i'm using mac, the only port available is this
+const port = process.env.PORT || 8000; //since i'm using mac, the only port available is this
 
 app.use(cors())
 app.use(express.json()) //=> req.body

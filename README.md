@@ -13,8 +13,8 @@ Make sure that you have already created your own **organisation** with your team
 ## Get Started
 
 - [✅] Fork the repository under your organisation
-- [ ] Each member should clone the forked repository on his local machine
-- [ ] Choose one of the projects that has not been reserved
+- [✅] Each member should clone the forked repository on his local machine
+- [✅] Choose one of the projects that has not been reserved
 
 ## Team composition
 
@@ -22,7 +22,7 @@ Edit this file by filling your team composition here:
 
 - [✅] Yahia Boussaid | yahbouss | **Scrum Master**
 - [✅] Khadija Djarraya | khadija-djarraya
-- [✅] Chadi Haamrouni | Chadi Hamrouni
+- [✅] Chadi Haamrouni | ChadiHamrouni
 
 ## Technologies
 
@@ -34,7 +34,7 @@ In you assignment, you have to use all the following Technologies
 
 Choose one of these Technologies for your DBMS and your ORM
 
-- [ ] MongoDB + Mongoose
+- [✅] MongoDB + Mongoose
 - [ ] MySQL + Sequelize
 
 Feel free to use any of these technologies
