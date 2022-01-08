@@ -4,21 +4,18 @@ const cors = require("cors");
 const dotenv = require("dotenv").config();
 const morganBody = require('morgan-body');
 const connect = require("./db");
-const { application } = require("express");
-const dummy_data = require("../dummy_data");
+const stories = require("./routes/stories.routes")
 
 morganBody(app)
 
-const port = process.env.PORT || 8000; //since i'm using mac, the only port available is this
+const port = process.env.PORT || 8000
 
 app.use(cors())
 app.use(express.json()) //=> req.body
 
 connect()
 
-app.get("/api/news", (req,res)=>{
-    res.send(dummy_data)
-})
+app.use("/api/news", stories)
 
 app.listen(port, () => {
   console.log(`server is listening on port ${port}`);

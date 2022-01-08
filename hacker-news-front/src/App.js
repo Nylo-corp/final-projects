@@ -13,13 +13,16 @@ import TopTenStories from "./Components/Topten/ToptenStories.component";
 const App = () => {
   return (
     <Router className="App">
-      <NavBar/>
+      <NavBar />
       <Routes>
-        <Route exact path="/" element={<Topten/>}/>
-        <Route path="/top10authors" element={<TopTenAuthors/>}/>
-        <Route path="/top10stories" element={<TopTenStories/>}/>
+        <Route exact path="/" element={<Topten />} />
       </Routes>
-      
+      <Routes>
+        <Route path="/top10authors" element={<TopTenAuthors />} />
+      </Routes>
+      <Routes>
+        <Route path="/top10stories" element={<TopTenStories />} />
+      </Routes>
     </Router>
   );
 };
